@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* Author: Kira Miller
+ * Notes:
+ *     BEM for naming conventions: http://getbem.com/naming/
+ */
+
+body {
+	background: #111;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+	color: #FF0077;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.overview {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.introduction {
+	padding-top: 10%;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+.about {
+	max-width: 400px;
+	text-align: center;
+	margin: auto;
+	font-size: 1rem;
+	font-weight: normal;
+	color: #888;
+	line-height: 1.3rem;
+}
+
+.icons {
+	padding: 1rem;
+}
+
+.icons a {
+	margin: 0.5rem;
+	padding: 0;
+	line-height: 3rem;
+}
+
+.icons a img {
+	width: 3rem;
+	height: 3rem;
+}
