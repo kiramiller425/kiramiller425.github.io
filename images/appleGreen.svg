@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<svg width="350" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_15" spreadMethod="pad" x1="0" x2="1" y1="0" y2="1">
+   <stop offset="0" stop-color="#00ff00"/>
+   <stop offset="1" stop-color="#00c900" stop-opacity="0.996094"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <path d="m157.5,91.899994c-8,-12 -58,-46 -111,-10c-53,36 5,161 38,192c33,31 53,39 65,20c12,-19 23,-3 32,-4c9,-1 13,-16 28,1c15,17 30,12 53,-18c23,-30 66,-157 26,-189c-40,-32 -101,-10 -117,11l-14,-3z" fill="url(#svg_15)" id="svg_10" stroke="#00bf00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+  <path d="m47.5,120.899994c-9,-18 32,-47 59,-36c27,11 -50,54 -59,36z" fill="#afffaf" id="svg_11" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0" stroke-width="5"/>
+  <ellipse cx="176.5" cy="328.899994" fill="#afffaf" id="svg_12" rx="172" ry="20" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0" stroke-width="5"/>
+  <path d="m161.5,20.899994l46.5,-6.899994c-24.5,11.100006 -29.5,73.899994 -34,78c-4.5,4.100006 -11.5,2.899994 -21,11c-9.5,8.100006 1.5,-71.100006 8.5,-82.100006z" fill="#9b5209" id="svg_16" stroke="#5b4501" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+  <path d="m172.5,83.899994c0,0 9,-60 75,-75c66,-15 83,12 83,13c0,1 -35,33 -69,47c-34,14 -89,15 -89,15z" fill="#00bf00" id="svg_17" stroke="#007f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+ </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg width="350" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_19" spreadMethod="pad" x1="0" x2="1" y1="0" y2="1">
+   <stop offset="0" stop-color="#f9e500" stop-opacity="0.992188"/>
+   <stop offset="1" stop-color="#c6af00" stop-opacity="0.992188"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <path d="m139.5,67.899994c-38,1 -47,38 -48,67c-1,29 -37,39 -33,101c4,62 86,69 115,69c29,0 103,-16 108,-74c5,-58 -39,-74 -44,-94c-5,-20 -20,-71 -58,-72l-40,3z" fill="url(#svg_19)" id="svg_10" stroke="#b29400" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+  <path d="m108.042928,108.777925c-5.818444,-14.493151 20.041306,-36.232878 37.496637,-27.375952c17.455331,8.856926 -31.678193,41.869103 -37.496637,27.375952z" fill="#ffffaa" id="svg_11" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0" stroke-width="5"/>
+  <ellipse cx="176.5" cy="328.899994" fill="#fff5af" id="svg_12" rx="172" ry="20" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0" stroke-width="5"/>
+  <path d="m155.928991,21.358191l29.071012,-4.358192c-15.316985,7.011014 -18.4429,46.676903 -21.256224,49.266559c-2.813324,2.589656 -7.189605,1.831702 -13.128844,6.947848c-5.939239,5.116147 0.937775,-44.908367 5.314056,-51.856215z" fill="#9b5209" id="svg_16" stroke="#5b4501" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+  <path d="m163.5,58.899424c0,0 5.582278,-38.120731 46.518986,-47.650914c40.936708,-9.530183 51.481011,7.624146 51.481011,8.259492c0,0.635346 -21.70886,20.966402 -42.797467,29.861239c-21.088607,8.894837 -55.20253,9.530183 -55.20253,9.530183z" fill="#00bf00" id="svg_17" stroke="#007f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+  <path d="m81.134901,222.980403c-17.161303,-28.959323 21.111155,-83.398308 72.595065,-65.700944c51.483909,17.697364 -55.433762,94.660267 -72.595065,65.700944z" fill="#ffffaa" id="svg_20" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0" stroke-width="5"/>
+ </g>
+</svg>

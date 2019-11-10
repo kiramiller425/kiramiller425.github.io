@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/**
+ * index.css
+ *
+ * Version: 1.0 
+ * Author: Kira Miller
+ * Notes:
+ *     This document contains the custom styles for this project.
+ *     BEM for naming conventions: http://getbem.com/naming/
+ */
+ 
+:root {
+	--card-border-thickness: 1px;
+	--card-full-size-width: 200px;
+	--card-margins: 2px;
+	--card-mobile-size-width: 50px;
+	--card-tablet-size-width: 120px;
+	--card-container-mobile-size-width: 280px;
+	--message-container-tablet-size-height: 50px;
+	--message-container-mobile-size-height: 50px;
+	--cards-and-dashboard-tablet-size-width: 630px;
+	--cards-and-dashboard-large-size-width: 1030px;
+}
+
+#game-board {
+	text-align: center;
+	width: 100%;
+}
+
+.game-board__stats-dashboard {
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.game-board__title {
+	font-size: 3rem;
+	padding: 0;
+	margin: 0 auto 15px auto;
+}
+
+.game-board__points {
+	text-align: right;
+}
+
+.game-board__matches-found-count {
+	text-align: right;
+}
+
+.game-board__message-to-user {
+	font-size: 1.3rem;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+.game-board__reset {
+	background: #FF0077;
+	color: #FFFFFF;
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 5px auto 15px auto;
+	padding: 5px 15px;
+	text-align: center;
+	width: 100px;
+}
+.game-board__reset:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.game-board__cards {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.game-board__cards:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+.game-board__single-card.selectable:hover{
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.game-board__single-card img {
+	border-color: #aaaa00;
+	border-style: solid;
+	border-width: var(--card-border-thickness);
+	float: left;
+	margin: var(--card-margins);
+	padding: 0;
+	width: var(--card-full-size-width);
+	height: var(--card-full-size-width);
+}
+
+.game-board__single-card.selectable img:hover{
+	border-color: #000;
+}
+
+.hidden {
+	display: none;
+}
+
+@media screen and (min-width: 1350px) {	
+
+	.game-board__stats-dashboard {
+		width: var(--cards-and-dashboard-large-size-width);
+	}
+	
+	.game-board__cards {
+		width: var(--cards-and-dashboard-large-size-width);
+	}
+	
+}
+
+@media screen and (min-width: 646px) and (max-width: 1350px) {
+	
+	h1 {
+		font-size: 2rem;
+	}
+	
+	.game-board__stats-dashboard {
+		width: var(--cards-and-dashboard-tablet-size-width);
+	}
+	
+	.game-board__message-to-user {
+		height: var(--message-container-tablet-size-height);
+	}
+	
+	.game-board__cards {
+		width: var(--cards-and-dashboard-tablet-size-width);
+	}
+	
+	.game-board__single-card img {
+		width: var(--card-tablet-size-width);
+		height: var(--card-tablet-size-width);
+	}
+	
+}
+
+@media screen and (max-width: 645px) {
+
+	.game-board__points {
+		text-align: center;
+		padding: 5px;
+	}	
+	
+	.game-board__matches-found-count {
+		text-align: center;
+		padding: 5px;
+	}
+	
+	.game-board__message-to-user {
+		font-size: 1rem;
+		height: var(--message-container-mobile-size-height);
+	}
+	
+	.game-board__cards {
+		max-width: var(--card-container-mobile-size-width);
+	}
+	
+	.game-board__single-card img {
+		width: var(--card-mobile-size-width);
+		height: var(--card-mobile-size-width);
+	}
+	
+}

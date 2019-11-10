@@ -1,0 +1,19 @@
+<svg width="350" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient y2="1" y1="0" x2="1" x1="1" id="svg_46">
+   <stop stop-color="#0ef75c" offset="0"/>
+   <stop stop-opacity="0.996094" stop-color="#0a6d00" offset="1"/>
+  </linearGradient>
+  <linearGradient y2="0" y1="1" x2="1" x1="1" id="svg_48">
+   <stop stop-opacity="0.996094" stop-color="#ad7d53" offset="0"/>
+   <stop stop-opacity="0.996094" stop-color="#7f3f00" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect id="svg_1" fill="rgb(240,240,0)" height="450" width="450"/>
+  <path transform="translate(9, -7) translate(49, 23)" stroke-width="5" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#7f3f00" id="svg_43" fill="url(#svg_48)" d="m97.5,309.899994l19.5,-26.899994l-2,-35l-26,-38l-10,-38l24,11l6,22l21,24l0,-66l46,-18l-18,107l10,49l-28,-2l-42.5,10.899994z"/>
+  <path transform="translate(9, -7) translate(49, 23)" stroke-width="5" stroke-linejoin="null" stroke-linecap="null" stroke-dasharray="null" stroke="#007f00" id="svg_42" fill="url(#svg_46)" d="m136.5,34.89999c0,5 -4,-39 -49,-25c-45,14 -17,36 -18.5,33.10001c-1.5,-2.89999 -17.5,-16.10001 -26.5,-1.10001c-9,15 12,21 10.5,22.10001c-1.5,1.100014 -24.5,-15.10001 -41.5,12.899986c-17,28 18,54.000008 17.5,53.100014c-0.5,-0.899994 -16.5,5.899994 -17.5,20.899994c-1,15 24,11 23.5,10.100006c-0.5,-0.899994 -3.5,20.899994 21.5,36.899994c25,16 50,-25 46.5,-17.899994c-3.5,7.100006 -1.5,25.899994 28.5,21.899994c30,-4 25,-13 20.5,-18.899994c-4.5,-5.899994 21.5,28.899994 56.5,5.899994c35,-23 3,-36 3.5,-36.899994c0.5,-0.899994 25.5,14.899994 31.5,-21.100006c6,-36.000008 -24,-34.000008 -16,-35.000008c8,-1 16,-11 9,-32.999996c-7,-22 -42,-16 -47.5,-13.89999c-5.5,2.10001 18.5,-21.10001 -15.5,-35.10001c-34,-14 -37,16 -37,21z"/>
+ </g>
+</svg>

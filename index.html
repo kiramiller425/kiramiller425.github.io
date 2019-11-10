@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Kira Miller</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<link href="styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <title>Kira Miller</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <link href="styles/index.css" rel="stylesheet" type="text/css" media="all">
+	<script src="scripts/jquery-3.4.1.min.js" ></script>
+	<script src="scripts/layout.js" ></script>
 </head>
 <body>
-	<div class="overview">
-		<div class="introduction">
-			<h1>Kira Miller</h1>
-			<h2>{ Hello, I'm Kira! Welcome to my portfolio site. }</h2>
-			<div class="about">I love all things coding! I'm a software engineer with experience in usability, front-end, and full-stack development. Click below to learn more and connect with me.</div>
-			<div class="icons">
-				<a href="https://app.pluralsight.com/profile/kira-miller" target="_blank" alt="See my skills on PluralSight.com"><img src="images/pluralsight.svg" /></a>
-				<a href="https://www.linkedin.com/in/kiramiller1/" target="_blank" alt="See my profile on LinkedIn"><img src="images/linkedin.svg" /></a>
-				<a href="https://stackoverflow.com/users/story/10373214" target="_blank" alt="See my profile on StackOverflow.com"><img src="images/stackoverflow.svg" /></a>
-				<a href="https://github.com/kiramiller425" target="_blank" alt="See my profile on Github.com"><img src="images/github.svg" /></a>
-				<a href="https://app.codesignal.com/profile/kiramiller425/overview" target="_blank" alt="See my profile on CodeSignal.com"><img src="images/codesignal.svg" /></a>
-			</div>
-		</div>
-	</div>
+    <div class="slice slice--overview">
+        <div class="slice__inner">
+            <h1 class="heading1 heading1--kira-spacing heading1--kira-font">Kira Miller</h1>
+            <h2 class="heading2 heading2--introduction-spacing heading2--introduction-font">{ Hello, I'm Kira! Welcome to my portfolio site. }</h2>
+            <p class="about about--introduction-spacing about--font">I love all things coding! I'm a software engineer with experience in usability, front-end, and full-stack development. Click below to learn more and connect with me.</p>
+            <div class="icons">
+                <a href="https://app.pluralsight.com/profile/kira-miller" target="_blank"><img class="pluralsightIcon" src="images/pluralsight.svg" alt="See my skills on PluralSight.com" /></a>
+                <a href="https://www.linkedin.com/in/kiramiller1/" target="_blank"><img class="linkedinIcon" src="images/linkedin.svg" alt="See my profile on LinkedIn" /></a>
+                <a href="https://stackoverflow.com/users/story/10373214" target="_blank"><img class="stackoverflowIcon" src="images/stackoverflow.svg" alt="See my profile on StackOverflow.com" /></a>
+                <a href="https://github.com/kiramiller425" target="_blank"><img class="githubIcon" src="images/github.svg" alt="See my profile on Github.com" /></a>
+                <a href="https://app.codesignal.com/profile/kiramiller425/overview" target="_blank"><img class="codesignalIcon" src="images/codesignal.svg" alt="See my profile on CodeSignal.com" /></a>
+            </div>
+        </div>
+    </div>
+    <div class="slice slice--work">
+        <div class="slice__inner">
+            <section>
+                <h2 class="heading2 heading2--spacing heading2--font">Portfolio Samples</h2>
+                <div class="accordion">
+					<div class="work-item accordion-item">
+						<div class="work-item__link-container">
+							<img src="images/cardMatchScreenshot.png" alt="Click here to view game." />
+						</div>
+						<div class="work-item__description-container">
+							<h4 class="work-item__title work-item__title-font">Card Match Memory Game</h4>
+							<p class="about about--font">A simple web game focusing on jQuery. Made utilizing jQuery 3.4.1, JSDoc, JSON, JavaScript/JS/ES5+6, SVGs (via SVG-edit), HTML, CSS, with Notepad++ as the editor. Modern browser required.</p>
+						</div>
+					</div>
+					<div class="accordion-panel work-item__panel">
+						<div id="game-board"></div>
+					</div>
+				</div>
+            </section>
+        </div>
+    </div>
 </body>
 </html>

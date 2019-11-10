@@ -1,60 +1,236 @@
 @charset "utf-8";
 
-/* Author: Kira Miller
+/**
+ * layout.css
+ *
+ * Version: 1.0 
+ * Author: Kira Miller
  * Notes:
  *     BEM for naming conventions: http://getbem.com/naming/
+ *
+ * Index
+ *  - Defaults
+ *  - Styling Containers
+ *  - Fonts
+ *  - Media queries for small screens
  */
 
+/* Defaults */
+
 body {
-	background: #111;
-	font-family: Courier;
-	color: #FF0077;
-	font-size: 1rem;
-	font-weight: normal;
+    background: #111111;
+    color: #FF0077;
+    font-family: Courier;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
 }
 
-.overview {
-	text-align: center;
-	margin: 0;
-	padding: 0;
+/* Styling Containers */
+
+.slice {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-.introduction {
-	padding-top: 10%;
+.slice--overview {
+    background: #111111;
 }
 
-h1 {
-	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
-	font-size: 4rem;
-	font-weight: normal;
+.slice--work {
+    background: #111111;
 }
 
-h2 {
-	font-size: 1.5rem;
-	font-weight: normal;
+.slice__inner {
+    padding: 3rem 0;
+}
+
+.work-item {
+    clear: both;
+    margin: 4rem auto 0 auto;
+    max-width: 700px;
+    overflow: auto;
+    padding: 0 0 15px 0;
+    text-align: left;
+}
+
+.work-item__link-container {
+    float: left;
+    margin: 0 5% 0 0;
+    max-width: 30%;
+}
+
+.work-item__link-container img {
+    max-width: 100%;    
+}
+
+.work-item__description-container {
+    float: left;
+    max-width: 60%;
+    text-align: right;
+}
+
+.work-item__panel {
+	background: #fff;
+}
+
+.heading1 {
+    margin: 0;
+    padding: 0;
+}
+
+.heading1--spacing {
+    margin: 3rem 0 2rem 0;
+}
+
+.heading1--kira-spacing {
+    margin: 3rem 0 2rem 0;
+}
+
+.heading2 {
+    margin: 0;
+    padding: 0;
+}
+
+.heading2--spacing {
+    padding: 1rem 0;
+}
+
+.heading2--introduction-spacing {
+    padding: 1rem 0;
+}
+
+.work-item__type {
+    margin: 0 0 1rem 0;
+    padding: 0;    
+}
+
+.work-item__title {
+    margin: 0 0 1rem 0;
+    padding: 0;    
 }
 
 .about {
-	max-width: 400px;
-	text-align: center;
-	margin: auto;
-	font-size: 1rem;
-	font-weight: normal;
-	color: #888;
-	line-height: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+.about--introduction-spacing {
+    margin: 0 auto 0 auto;
+    max-width: 400px;
+    text-align: center;
 }
 
 .icons {
-	padding: 1rem;
+    padding: 1rem;
 }
 
 .icons a {
-	margin: 0.5rem;
-	padding: 0;
-	line-height: 3rem;
+    margin: 0.5rem;
+    padding: 0;
+    line-height: 3rem;
 }
 
 .icons a img {
-	width: 3rem;
-	height: 3rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Fonts */
+
+.heading1--font {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+/* Special font for my name, when used as a headline: */
+.heading1--kira-font {
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+.heading2--font {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.heading2--introduction-font {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.about--font {
+    color: #888888;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.3rem;
+}
+
+.work-item__type-font {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.work-item__title-font {
+    color: #FF0077;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.work-item__title-font:after {
+    content: ' \2192';	
+}
+.work-item__title-font:hover {
+    color: #FFFFFF;
+}
+
+.accordion-item {
+	cursor: pointer;
+}
+
+/* Media queries for small screens */
+
+@media screen and (max-width: 440px) {
+    .heading1--kira-spacing {
+        margin: 1.5rem 0 2rem 0;
+    }
+
+    .slice__inner {
+        padding: 2rem 0;
+    }
+    
+    .about--introduction-spacing {
+        margin: 0 5px;
+    }
+
+    .heading1--kira-font {
+        font-size: 2.5rem;
+    }
+
+    .work-item {
+        clear: both;
+        margin: 4rem auto 0 auto;
+        max-width: 700px;
+        overflow: auto;
+        padding: 0;
+        text-align: left;
+    }
+
+    .work-item__link-container {
+        float: left;
+        margin: 0 5% 0 0;
+        max-width: 30%;
+    }
+
+    .work-item__link-container img {
+        max-width: 100%;    
+    }
+
+    .work-item__description-container {
+        float: left;
+        max-width: 60%;
+        text-align: right;
+    }
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg width="350" height="350" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="svg_23" spreadMethod="pad" x1="0" x2="1" y1="0" y2="1">
+   <stop offset="0" stop-color="#9300dd" stop-opacity="0.988281"/>
+   <stop offset="1" stop-color="#430054" stop-opacity="0.972656"/>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <path d="m162.5,73.899994c-26,-21 -82,-11 -99,39c-17,50 -9,98 3,125c12,27 44,61 111,59c67,-2 105,-51 114,-79c9,-28 9,-92 -9,-123c-18,-31 -54,-50 -101,-23l-19,2z" fill="url(#svg_23)" id="svg_10" stroke="#1d0033" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+  <ellipse cx="176.5" cy="328.899994" fill="#b731f9" id="svg_12" rx="172" ry="20" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="0" stroke-width="5"/>
+  <path d="m170.928991,25.358191l29.071012,-4.358192c-15.316985,7.011014 -18.4429,46.676903 -21.256224,49.266559c-2.813324,2.589656 -7.189605,1.831702 -13.128844,6.947848c-5.939239,5.116147 0.937775,-44.908367 5.314056,-51.856215z" fill="#9b5209" id="svg_16" stroke="#5b4501" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+  <path d="m169.499998,58.899424c0,0 6.664557,-38.120731 55.537974,-47.650914c48.873417,-9.530183 61.462024,7.624146 61.462024,8.259492c0,0.635346 -25.917721,20.966402 -51.094936,29.861239c-25.177215,8.894837 -65.905062,9.530183 -65.905062,9.530183z" fill="#00bf00" id="svg_17" stroke="#007f00" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+ </g>
+</svg>
