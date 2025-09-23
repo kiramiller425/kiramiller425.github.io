@@ -1,49 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Kira Miller</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link href="styles/layout.css" rel="stylesheet" type="text/css" media="all">
-    <link href="styles/index.css" rel="stylesheet" type="text/css" media="all">
-	<script src="scripts/jquery-3.4.1.min.js" ></script>
-	<script src="scripts/layout.js" ></script>
+    <title>Kira Miller's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <div class="slice slice--overview">
-        <div class="slice__inner">
-            <h1 class="heading1 heading1--kira-spacing heading1--kira-font">Kira Miller</h1>
-            <h2 class="heading2 heading2--introduction-spacing heading2--introduction-font">{ Hello, I'm Kira! Welcome to my portfolio site. }</h2>
-            <p class="about about--introduction-spacing about--font">I love all things coding! I'm a software engineer with experience in usability, front-end, and full-stack development. Click below to learn more and connect with me.</p>
-            <div class="icons">
-                <a href="https://app.pluralsight.com/profile/kira-miller" target="_blank"><img class="pluralsightIcon" src="images/pluralsight.svg" alt="See my skills on PluralSight.com" /></a>
-                <a href="https://www.linkedin.com/in/kiramiller1/" target="_blank"><img class="linkedinIcon" src="images/linkedin.svg" alt="See my profile on LinkedIn" /></a>
-                <a href="https://stackoverflow.com/users/story/10373214" target="_blank"><img class="stackoverflowIcon" src="images/stackoverflow.svg" alt="See my profile on StackOverflow.com" /></a>
-                <a href="https://github.com/kiramiller425" target="_blank"><img class="githubIcon" src="images/github.svg" alt="See my profile on Github.com" /></a>
-                <a href="https://app.codesignal.com/profile/kiramiller425/overview" target="_blank"><img class="codesignalIcon" src="images/codesignal.svg" alt="See my profile on CodeSignal.com" /></a>
+
+    <nav>
+        <button class="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <span class="author">Kira Miller</span>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#connect">Connect</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <img src="images/profile.jpg" alt="Kira Miller's profile picture">
+        <div class="profile">
+            <h1>Kira Miller</h1>
+            <p>Senior Software Developer, Full Stack Engineer, and Project Manager with a passion for creating efficient and scalable solutions. Experienced in leading teams and delivering high-impact projects.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <ul class="experience-list">
+            <li class="experience-item">
+                <h3>Volunteer Coding Mentor: Assignment Reviewer</h3>
+                <p class="company">Code the Dream</p>
+                <p class="period">2022 - Present</p>
+                <ul>
+                    <li>100% remote environment</li>
+                    <li>Mentored 2-7 students every trimester.</li>
+                    <li>Developed testing tools to facilitate better grading.</li>
+                    <li>Attended regular meetings with superiors.</li>
+                    <li>Reviewed coding assignments, providing detailed feedback.</li>
+                    <li>Delivered constructive guidance to help students improve.</li>
+                </ul>
+            </li>
+            <li class="experience-item">
+                <h3>Senior Software Developer</h3>
+                <p class="company">Spokane Software Systems, Inc.</p>
+                <p class="period">2019 - 2021</p>
+                <ul>
+                    <li>Experienced working remotely 100% of the time.</li>
+                    <li>Contributed to back-end code base.</li>
+                    <li>Debugging and Pair programming experience.</li>
+                    <li>Mentored new hires.</li>
+                    <li>Learned new technologies quickly.</li>
+                    <li>Implemented testing system utilizing Selenium, JUnit, and Java.</li>
+                    <li>Prototyped Continuous Integration and Continuous Delivery (CI/CD) option.</li>
+                </ul>
+            </li>
+            <li class="experience-item">
+                <h3>Programmer / Systems Analyst</h3>
+                <p class="company">Itron, Inc.</p>
+                <p class="period">2013 - 2019</p>
+                <ul>
+                    <li>Worked as a full stack developer,</li>
+                    <li>Technical Project Manager for several projects,</li>
+                    <li>Lead Developer for over 25 internal applications.</li>
+                    <li>Experienced working remotely. Home office set up.</li>
+                    <li>Gathered requirements from customers / product owners</li>
+                    <li>Implemented UX, usability, and security best practices.</li>
+                    <li>Managed full software development lifecycle for many projects.</li>
+                    <li>Worked solo and in global, cross-functional teams.</li>
+                    <li>Wrote internal tutorials and documentation for many types of audiences.</li>
+                    <li>Designed business processes and workflows.</li>
+                    <li>Mentored junior developers. Removed roadblocks. Helped guide them.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <a href="https://kiramiller425.neocities.org/" target="_blank">
+                    <img src="images/screenshot_low_carb.jpg" alt="Low Carb Recipe Site Screenshot">
+                    <div class="project-content">
+                        <h3>Low Carb Recipe Site</h3>
+                        <p>A website I made to showcase some of my favorite and popular keto and low carb recipes.</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/kiramiller425/vibe-practice-todo-list" target="_blank">
+                    <img src="images/screenshot_todo.jpg" alt="Todo List Screenshot">
+                    <div class="project-content">
+                        <h3>Vibe Coding Project: To Do List</h3>
+                        <p>Simple vibe coding exercise. Created a front-end To Do List in vanilla JS, HTML, and CSS.</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/kiramiller425/FFMpegSimpleBashVideoSlicer" target="_blank">
+                    <img src="images/screenshot_ffmpeg_bash.jpg" alt="FFMpeg Simple Bash Video Slicer Project Screenshot">
+                    <div class="project-content">
+                        <h3>FFMpeg Simple Bash Video Slicer</h3>
+                        <p>A simple cli tool to use with FFMPEG on Linux to slice up MPG and MP4 videos quickly. Outputs the slices as new .MP4 files.</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/kiramiller425/early-lesson-tests" target="_blank">
+                    <img src="images/screenshot_early_tests.jpg" alt="Early Lesson Tests Project Screenshot">
+                    <div class="project-content">
+                        <h3>Early Lesson Tests for Code The Dream</h3>
+                        <p>A sample of the tests I made for Code The Dream's lessons that appear earlier in each course. This was sent to CTD's devs to inspire the next version of the testing system.</p>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/kiramiller425/" target="_blank">
+                    <img src="images/screenshot_ffmpeg_bash.jpg" alt="Generic Project Screenshot">
+                    <div class="project-content">
+                        <h3>More Projects</h3>
+                        <p>View all of my GitHub repositories here!</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Communication</h3>
+                <ul>
+                    <li>Written Communication</li>
+                    <li>Interpersonal Communication</li>
+                    <li>Teaching</li>
+                    <li>Public Speaking (Toastmasters)</li>
+                    <li>Technical Writing</li>
+                    <li>Documentation</li>
+                    <li>MarkDown</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Leadership</h3>
+                <ul>
+                    <li>Project Management</li>
+                    <li>Cross Functional Team Leadership</li>
+                    <li>Dev Lead</li>
+                    <li>Mentoring</li>
+                    <li>Agile Methodologies</li>
+                    <li>Remote Work</li>
+                    <li>Slack</li>
+                    <li>Code Review</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>DevOps & Infrastructure</h3>
+                <ul>
+                    <li>Docker</li>
+                    <li>CI/CD</li>
+                    <li>Jenkins</li>
+                    <li>Git / Github</li>
+                    <li>Linux</li>
+                    <li>Mac</li>
+                    <li>Windows Server</li>
+                    <li>bash / Shell Scripting</li>
+                    <li>Apache Kafka</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Frontend Development</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript / ES6</li>
+                    <li>User Experience (UX)</li>
+                    <li>Usability</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Backend Development</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li>C#</li>
+                    <li>.NET Framework</li>
+                    <li>ASP.NET</li>
+                    <li>PHP</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Testing & QA</h3>
+                <ul>
+                    <li>Software Testing</li>
+                    <li>Unit Testing</li>
+                    <li>JUnit</li>
+                    <li>Selenium Testing</li>
+                    <li>User Acceptance Testing</li>
+                    <li>Regression Testing</li>
+                    <li>Debugging</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Development Tools</h3>
+                <ul>
+                    <li>VS Code</li>
+                    <li>Visual Studio</li>
+                    <li>IntelliJ IDEA</li>
+                    <li>SQL Server Management Studio</li>
+                    <li>npm</li>
+                    <li>Gradle</li>
+                    <li>Elasticsearch</li>
+                </ul>
             </div>
         </div>
-    </div>
-    <div class="slice slice--work">
-        <div class="slice__inner">
-            <section>
-                <h2 class="heading2 heading2--spacing heading2--font">Portfolio Samples</h2>
-                <div class="accordion">
-					<div class="work-item accordion-item">
-						<div class="work-item__link-container">
-							<img src="images/cardMatchScreenshot.png" alt="Click here to view game." />
-						</div>
-						<div class="work-item__description-container">
-							<h4 class="work-item__title work-item__title-font">Card Match Memory Game</h4>
-							<p class="about about--font">A simple web game focusing on jQuery. Made utilizing jQuery 3.4.1, JSDoc, JSON, JavaScript/JS/ES5+6, SVGs (via SVG-edit), HTML, CSS, with Notepad++ as the editor. Modern browser required.</p>
-						</div>
-					</div>
-					<div class="accordion-panel work-item__panel">
-						<div id="game-board"></div>
-					</div>
-				</div>
-            </section>
+    </section>
+
+    <section id="connect">
+        <h2>Connect</h2>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/kiramiller1" target="_blank">LinkedIn</a>
+            <a href="https://codesignal.com/learn/profile/cm5rbly9b0004fxcugdgfgwbh" target="_blank">CodeSignal</a>
+            <a href="https://stackoverflow.com/users/10373214/kiramiller" target="_blank">StackOverflow</a>
+            <a href="https://app.pluralsight.com/profile/kira-miller" target="_blank">PluralSight</a>
+            <a href="https://github.com/kiramiller425" target="_blank">GitHub</a>
         </div>
-    </div>
+    </section>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
+

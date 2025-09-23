@@ -9,6 +9,18 @@ $(function($) {
     /**
      * Accordion handler.
      */
+	$(".klm-portfolio-item__summary").click(function() {		
+		$(this).next(".klm-portfolio-item__demo-container").slideToggle();
+	});
+	
+
+    
+    
+    
+
+    /** TODO: remove this:
+     * Accordion handler.
+     */
 	$(".accordion > .accordion-item").click(function() {		
 		$(this).next(".accordion-panel").slideToggle( "slow", function() {
 			// Animation complete.
@@ -18,6 +30,8 @@ $(function($) {
 	// Hide it by default:
 	$(".accordion > .accordion-item").click();
 
+    
+    
 	// TODO: make this better:
 	$(".codesignalIcon").hover(function(){
 		$(this).attr("src", "images/codesignal_hover.svg");
@@ -34,7 +48,7 @@ $(function($) {
 	}, function() {
 		$(this).attr("src", "images/linkedin.svg");
 	});
-	$(".pluralsightIcon").hover(function(){
+	$(".js-pluralsight-icon").hover(function(){
 		$(this).attr("src", "images/pluralsight_hover.svg");
 	}, function() {
 		$(this).attr("src", "images/pluralsight.svg");
@@ -547,6 +561,8 @@ $(function($) {
     // Setup and start the game:
     $.KirasCardMatchMemoryGame.setupGame("game-board", "loading-message-container", relativeUrisOfUniquePicturesArray);
     
+	// Hide it by default:
+	$(".klm-portfolio-item__summary").each().click();
     
 	
 });

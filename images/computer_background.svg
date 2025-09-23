@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Gradient Background -->
+    <defs>
+        <linearGradient id="bg-gradient" x1="0" y1="0" x2="1920" y2="1080">
+            <stop offset="0%" stop-color="#4a90e2"/>
+            <stop offset="50%" stop-color="#ffd700"/>
+            <stop offset="100%" stop-color="#ff69b4"/>
+        </linearGradient>
+    </defs>
+    
+    <!-- Background -->
+    <rect width="1920" height="1080" fill="url(#bg-gradient)" opacity="0.2"/>
+    
+    <!-- Computer Monitor -->
+    <g transform="translate(760, 160)">
+        <!-- Monitor Screen -->
+        <rect x="0" y="0" width="400" height="250" rx="10" fill="#333333"/>
+        <rect x="20" y="20" width="360" height="210" rx="5" fill="#ffffff"/>
+        
+        <!-- Monitor Stand -->
+        <path d="M150 250 H250 L270 300 H130 Z" fill="#333333"/>
+        <rect x="170" y="300" width="60" height="20" rx="5" fill="#333333"/>
+        
+        <!-- Decorative Elements -->
+        <circle cx="200" cy="235" r="5" fill="#666666"/>
+        
+        <!-- Screen Content (simplified code lines) -->
+        <rect x="40" y="40" width="200" height="10" rx="2" fill="#4a90e2" opacity="0.5"/>
+        <rect x="40" y="60" width="150" height="10" rx="2" fill="#ff69b4" opacity="0.5"/>
+        <rect x="40" y="80" width="180" height="10" rx="2" fill="#ffd700" opacity="0.5"/>
+    </g>
+</svg>
