@@ -122,6 +122,12 @@ nav {
     text-align: left;
 }
 
+#about ul {
+    list-style: disc;
+    margin: 0 0 0 30px;
+    text-align: left;
+}
+
 /* Experience: */
 
 #experience {
@@ -355,6 +361,10 @@ footer {
 
     #about {
         flex-direction: column;
+    }
+
+    #about ul {
+        margin: 0 45px 0 45px;
     }
 
     h1 {
